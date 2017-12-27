@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="75px"
+   height="65px"
+   viewBox="0 0 75 65"
+   version="1.1"
+   id="svg4253"
+   sodipodi:docname="btn_nosound.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata4257">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Help</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview4255"
+     showgrid="false"
+     inkscape:zoom="2.5673415"
+     inkscape:cx="-2.2373507"
+     inkscape:cy="-27.742543"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4253" />
+  <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4241">Help</title>
+  <desc
+     id="desc4243">Created with Sketch.</desc>
+  <defs
+     id="defs4245">
+    <linearGradient
+       id="linearGradient5712"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#5444f2;stop-opacity:1;"
+         offset="0"
+         id="stop5710" />
+    </linearGradient>
+  </defs>
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     sketch:type="MSPage">
+    <g
+       id="Start-screen"
+       sketch:type="MSArtboardGroup"
+       transform="translate(-48.000000, -530.000000)">
+      <g
+         id="Help-+-Social"
+         sketch:type="MSLayerGroup"
+         transform="translate(48.000000, 525.000000)">
+        <g
+           id="Help"
+           sketch:type="MSShapeGroup">
+          <polygon
+             id="Score-hex-4"
+             fill="#BDC3C7"
+             transform="translate(37.500000, 37.500000) rotate(-90.000000) translate(-37.500000, -37.500000) "
+             points="37.5 0 69.9759526 18.75 69.9759526 56.25 37.5 75 5.02404736 56.25 5.02404736 18.75 " />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     transform="translate(67.552015,-940.47171)"
+     id="layer1-8"
+     inkscape:label="Layer 1">
+    <g
+       transform="matrix(0.90372942,0,0,0.90372942,7.0357185,92.705877)"
+       id="g6067">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.50084728px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -65.904761,966.59368 v 15.352 h 10.016948 l 17.529656,10.34762 V 957.234 l -17.529656,9.35968 z"
+         id="path5905"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:2.06010365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -31.952621,986.74761 c 5.564487,-8.43963 6.445676,-16.51892 0,-24.03461"
+         id="path5907"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:2.06010365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -27.201486,994.65511 c 14.075576,-10.145 13.152203,-32.86058 0,-41.20212"
+         id="path5907-1"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+  </g>
+  <path
+     style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 18.404252,10.761014 51.2203,55.943939"
+     id="path5716"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+</svg>

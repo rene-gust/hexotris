@@ -1,0 +1,160 @@
+<ion-content>
+    <canvas id="canvas"></canvas>
+    <div id="overlay" class="faded overlay"></div>
+    <div id='startBtn'></div>
+    <div id="helpScreen" class='unselectable'>
+        <div id='inst_main_body'></div>
+    </div>
+    <img id="openSideBar" class='helpText' src="./assets/images/btn_help.svg"/>
+    <img id="soundBtn" src="./assets/images/btn_sound.svg"/>
+    <div class="faded overlay"></div>
+    <img id="pauseBtn" src="./assets/images/btn_pause.svg"/>
+    <img id='restartBtn' src="./assets/images/btn_restart_wide.svg"/>
+    <div id='highScoreInGameText'>
+        <div id='highScoreInGameTextHeader'>HIGH SCORES</div>
+        <div id='currentHighScore'>10292</div>
+    </div>
+    <div id="gameoverscreen">
+        <div id='container'>
+            <div id='gameOverBox' class='GOTitle'>GAME OVER</div>
+            <div id='cScore'>1843</div>
+            <img id="highScoresSpinner" src="/assets/images/spinner.gif" width="32" height="32">
+            <div class="high-score-container">
+                <div class="today-highscore-container">
+                    <h2>Today High Scores</h2>
+                    <div class='score'><span class='scoreNum'>1.</span>
+                        <div id="today1PlaceNumber" style="display:inline;">0</div>
+                        <div id="today1PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>2.</span>
+                        <div id="today2PlaceNumber" style="display:inline;">0</div>
+                        <div id="today2PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>3.</span>
+                        <div id="today3PlaceNumber" style="display:inline;">0</div>
+                        <div id="today3PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>4.</span>
+                        <div id="today4PlaceNumber" style="display:inline;">0</div>
+                        <div id="today4PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>5.</span>
+                        <div id="today5PlaceNumber" style="display:inline;">0</div>
+                        <div id="today5PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>6.</span>
+                        <div id="today6PlaceNumber" style="display:inline;">0</div>
+                        <div id="today6PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>7.</span>
+                        <div id="today7PlaceNumber" style="display:inline;">0</div>
+                        <div id="today7PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>8.</span>
+                        <div id="today8PlaceNumber" style="display:inline;">0</div>
+                        <div id="today8PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>9.</span>
+                        <div id="today9PlaceNumber" style="display:inline;">0</div>
+                        <div id="today9PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>10.</span>
+                        <div id="today10PlaceNumber" style="display:inline;">0</div>
+                        <div id="today10PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                </div>
+                <div class="today-highscore-container">
+                    <h2>All-Time High Scores</h2>
+                    <div class='score'><span class='scoreNum'>1.</span>
+                        <div id="allTime1PlaceNumber" style="display:inline;">0</div>
+                        <div id="allTime1PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>2.</span>
+                        <div id="allTime2PlaceNumber" style="display:inline;">0</div>
+                        <div id="allTime2PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>3.</span>
+                        <div id="allTime3PlaceNumber" style="display:inline;">0</div>
+                        <div id="allTime3PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>4.</span>
+                        <div id="allTime4PlaceNumber" style="display:inline;">0</div>
+                        <div id="allTime4PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>5.</span>
+                        <div id="allTime5PlaceNumber" style="display:inline;">0</div>
+                        <div id="allTime5PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>6.</span>
+                        <div id="allTime6PlaceNumber" style="display:inline;">0</div>
+                        <div id="allTime6PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>7.</span>
+                        <div id="allTime7PlaceNumber" style="display:inline;">0</div>
+                        <div id="allTime7PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>8.</span>
+                        <div id="allTime8PlaceNumber" style="display:inline;">0</div>
+                        <div id="allTime8PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>9.</span>
+                        <div id="allTime9PlaceNumber" style="display:inline;">0</div>
+                        <div id="allTime9PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                    <div class='score'><span class='scoreNum'>10.</span>
+                        <div id="allTime10PlaceNumber" style="display:inline;">0</div>
+                        <div id="allTime10PlaceName" style="display:inline;">anonymous</div>
+                    </div>
+                </div>
+            </div>
+            <div id='highScoresTitle' class='GOTitle'>Personal High Scores</div>
+            <div class='score'><span class='scoreNum'>1.</span>
+                <div id="1place" style="display:inline;">0</div>
+            </div>
+            <div class='score'><span class='scoreNum'>2.</span>
+                <div id="2place" style="display:inline;">0</div>
+            </div>
+            <div class='score'><span class='scoreNum'>3.</span>
+                <div id="3place" style="display:inline;">0</div>
+            </div>
+        </div>
+        <div id="proBanner" class="aff-banner">
+            <img id="proBannerCloseButton" class="close-button" src="assets/images/close-button.png"/>
+            <a id="proBannerLink" href="https://play.google.com/store/apps/details?id=de.renegust.hexotrispro2"
+               target="_blank">
+                Want to support the developers?<br><br>
+                Don't like ads?<br><br>
+                Tap for Hexotris Pro ad-free!
+            </a>
+        </div>
+        <div id="highScoreNameFormContainer">
+            <form action="#" id="highScoreNameForm">
+                <img src="./assets/images/trophy.jpg" width="140" height="131">
+                <h2>Congratulations</h2>
+                you've made it into the global <span id="#highScoreType">Today</span> high scores
+                <h2>Please enter your nickname:</h2>
+                <input type="text" maxlength="8" name="highScoreName" id="highScoreName">
+                <input type="submit" value="Submit" class="submit">
+            </form>
+        </div>
+        <div id='bottomContainer'>
+            <img id='restart' src='./assets/images/btn_restart.svg' width='140' height='65px'>
+            <img id='socialShare' src='./assets/images/share_scores.svg' width='140'  height='65px'>
+            <div id='buttonCont'>
+                <a href='http://www.facebook.com/sharer.php?s=100&p[url]=https://www.facebook.com/Hexotris-1478195732487855/'
+                   class="popup">
+                    <img src="assets/images/FBshares.jpg" width="140" height="49">
+                </a>
+                <a href="http://twitter.com/home?status=Play Hexotris! - https://goo.gl/hLtR2j #hexotris">
+                    <img src="assets/images/TWshares.jpg" width="140" height="49">
+                </a>
+            </div>
+        </div>
+        <div id="aff-banner-MA" class="aff-banner">
+            <a href="https://track.mobrider.com/?aff_id=127570&offer_id=665413&aff_sub=hexotris">
+                <img class="banner" src="./assets/images/jumia.png" width="320" height="480">
+            </a>
+            <img class="close-button" src="./assets/images/close-button-white.png" width="32" height="32">
+        </div>
+    </div>
+</ion-content>

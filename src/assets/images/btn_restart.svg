@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="140px"
+   height="65px"
+   viewBox="0 0 140 65"
+   version="1.1"
+   id="svg4919"
+   sodipodi:docname="btn_restart_new.svg"
+   inkscape:version="0.92.2 (30a58d1, 2017-08-07)">
+  <metadata
+     id="metadata4923">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Share button</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     id="namedview4921"
+     showgrid="false"
+     inkscape:zoom="6.0764512"
+     inkscape:cx="53.780795"
+     inkscape:cy="28.5"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4919" />
+  <title
+     id="title4906">Share button</title>
+  <defs
+     id="defs4908" />
+  <g
+     id="Page-1"
+     sketch:type="MSPage"
+     transform="matrix(0.54981895,0,0,1.0007404,0.15606908,-0.04811336)"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
+    <g
+       id="Game-over-"
+       sketch:type="MSArtboardGroup"
+       transform="translate(-95,-565)">
+      <g
+         id="Share-button"
+         sketch:type="MSLayerGroup"
+         transform="translate(95,565)">
+        <a
+           class="popup"
+           onclick="window.open('https://twitter.com/intent/tweet?text=Can you beat my score of '+ score +' points at=hexotris ? https://goo.gl/hLtR2j @hexotris','name','width=600,height=400')"
+           id="a4911">
+          <polygon
+             id="Score-hex-2"
+             sketch:type="MSShapeGroup"
+             transform="rotate(-90,127.66132,32.5)"
+             points="95.185364,141.06464 95.185363,-76.064636 127.66132,-94.814636 160.13727,-76.064636 160.13727,141.06464 127.66132,159.81464 "
+             style="fill:#f1c40f;fill-opacity:1" />
+        </a>
+      </g>
+    </g>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:21.28655052px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.14035094"
+     x="33.774647"
+     y="52.550442"
+     id="text4955"><tspan
+       sodipodi:role="line"
+       id="tspan4953"
+       x="33.774647"
+       y="52.550442"
+       style="fill:#ffffff;stroke-width:1.14035094">Restart</tspan></text>
+  <path
+     d="m 78.839649,9.362112 c -2.530332,-2.5375 -6.023765,-4.1125 -9.893684,-4.1125 -7.739837,0 -13.991244,6.265 -13.991244,14 0,7.735 6.251407,14 13.991244,14 6.522827,0 11.986242,-4.4625 13.53596,-10.5 h -3.642276 c -1.444653,4.0775 -5.314572,7 -9.893684,7 -5.804878,0 -10.506566,-4.69875 -10.506566,-10.5 0,-5.80125 4.701688,-10.5 10.506566,-10.5 2.898061,0 5.498437,1.2075 7.398374,3.10625 l -5.647279,5.64375 h 12.257661 v -12.25 z"
+     id="Shape"
+     sketch:type="MSShapeGroup"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" />
+</svg>
